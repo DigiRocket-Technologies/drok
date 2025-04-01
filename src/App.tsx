@@ -246,7 +246,28 @@ function App() {
       <div id="card" className="text-slate-50 w-full relative bg-black">
         {/* <BackgroundAnimation /> */}
         {/* Card Header */}
-        
+
+        <div id="card-header" className="p-6 shadow pb-4">
+          <h1 className="text-3xl font-bold text-cyan-400 text-center">
+            Drok by DigiRocket
+          </h1>
+          <div className="flex justify-center mt-4">
+            <svg
+              className={`w-8 h-8 text-purple-400 ${
+                callStatus === "active" ? "animate-spin-slow" : ""
+              }`}
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M2 12c0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10S2 17.5 2 12zm10-5a5 5 0 0 0 0 10 5 5 0 0 0 0-10z" />
+            </svg>
+          </div>
+        </div>
+
 
         {/* Card Content */}
         <div className="w-screen">
