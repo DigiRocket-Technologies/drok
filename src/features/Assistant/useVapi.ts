@@ -31,17 +31,17 @@ export function useVapi() {
   useEffect(() => {
     const onSpeechStart = () => setIsSpeechActive(true);
     const onSpeechEnd = () => {
-      console.log("Speech has ended");
+      //console.log("Speech has ended");
       setIsSpeechActive(false);
     };
 
     const onCallStartHandler = () => {
-      console.log("Call has started");
+      //console.log("Call has started");
       setCallStatus(CALL_STATUS.ACTIVE);
     };
 
     const onCallEnd = () => {
-      console.log("Call has stopped");
+      //console.log("Call has stopped");
       setCallStatus(CALL_STATUS.INACTIVE);
     };
 
@@ -50,7 +50,7 @@ export function useVapi() {
     };
 
     const onMessageUpdate = (message: Message) => {
-      console.log("message", message);
+      //console.log("message", message);
       if (
         message.type === MessageTypeEnum.TRANSCRIPT &&
         message.transcriptType === TranscriptMessageTypeEnum.PARTIAL
