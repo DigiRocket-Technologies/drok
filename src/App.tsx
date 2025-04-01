@@ -246,16 +246,7 @@ function App() {
       <div id="card" className="text-slate-50 w-full relative bg-black">
         {/* <BackgroundAnimation /> */}
         {/* Card Header */}
-        <div className="">
-          {/* <Infinity
-            size={100}
-            stroke={10}
-            strokeLength={0.15}
-            bgOpacity={0.1}
-            speed={1.3}
-            color="black"
-          /> */}
-        </div>
+        
 
         {/* Card Content */}
         <div className="w-screen">
