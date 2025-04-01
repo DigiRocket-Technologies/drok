@@ -118,9 +118,9 @@ function App() {
       >
         {/* Card Header */}
         <div id="card-header" className="p-6 shadow pb-4">
-{/*           <h1 className="text-3xl font-bold text-cyan-400 text-center">
+          <h1 className="text-3xl font-bold text-cyan-400 text-center">
             Drok by DigiRocket
-          </h1> */}
+          </h1>
           <div className="flex justify-center mt-4">
             <svg
               className={`w-8 h-8 text-purple-400 ${
@@ -185,9 +185,9 @@ function App() {
               Reset
             </button>
           </div>
-{/*           <p className="text-center text-sm text-cyan-400">
+          <p className="text-center text-sm text-cyan-400">
             Secure voice interaction • Powered by DigiRocket
-          </p> */}
+          </p>
         </div>
       </div>
     </main>
