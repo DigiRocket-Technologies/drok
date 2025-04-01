@@ -80,6 +80,7 @@ export const characterAssistant: CreateAssistantDTO = {
     provider: "openai",
     model: "gpt-3.5-turbo",
     temperature: 0.7,
+    speed: 1,
     // functions: [
     //   {
     //     name: "finalizeDetail",
@@ -133,6 +134,7 @@ export const characterAssistant: CreateAssistantDTO = {
   voice: {
     provider: "11labs",
     voiceId: "paula",
+    speed: 1,
   },
   firstMessage:
     "Hi, I'm Drok, your assistant from DigiRocket Technologies. How can I help you today?",
