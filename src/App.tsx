@@ -49,7 +49,7 @@ function App() {
         {/* <BackgroundAnimation /> */}
         {/* Card Header */}
 
-        <div id="card-header" className="p-6 shadow pb-4">
+{/*         <div id="card-header" className="p-6 shadow pb-4">
           <h1 className="text-3xl font-bold text-cyan-400 text-center">
             Drok by DigiRocket
           </h1>
@@ -68,7 +68,7 @@ function App() {
               <path d="M2 12c0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10S2 17.5 2 12zm10-5a5 5 0 0 0 0 10 5 5 0 0 0 0-10z" />
             </svg>
           </div>
-        </div>
+        </div> */}
 
 
         {/* Card Content */}
