@@ -1,4 +1,5 @@
 //import { CALL_STATUS, useVapi } from "./useVapi";
+import { Mic, MicOff } from "lucide-react";
 import { CALL_STATUS } from "./useVapi";
 
 // import { Loader2, Mic, Square } from "lucide-react";
@@ -72,7 +73,11 @@ export const VapiButton: React.FC<VapiButtonProps> = ({
         transition: "transform 0.1s ease-in-out",
       }}
     >
-      {callStatus === "active" ? "End Call" : "Start Call"}
+      {callStatus === "active" ? (
+        <MicOff className="h-10 w-10 text-red-700" />
+      ) : (
+        <Mic className="h-10 w-10 text-green-700" />
+      )}
     </button>
   );
 };
