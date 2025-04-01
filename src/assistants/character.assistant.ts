@@ -135,5 +135,5 @@ export const characterAssistant: CreateAssistantDTO = {
     voiceId: "paula",
   },
   firstMessage:
-    "Hi, I'm Mary, your assistant for designing story characters. I can help you create names or finalize details—just ask!",
+    "Hi, I'm Drok, your assistant from DigiRocket Technologies. How can I help you today?",
 };
